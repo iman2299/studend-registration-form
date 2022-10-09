@@ -1,0 +1,116 @@
+html{
+    height:100%; 
+}
+body{
+    background-image: url("new.webp");
+ 
+   background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid transparent;
+    background-color: transparent;
+    
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(19, 16, 16);
+    font-size: larger;
+    text-align: center;
+    padding: 25px 25px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #04AA6D;
+  }
+  
+  li a.active {
+    color: rgb(44, 188, 220);
+    background-color: #04AA6D;
+  }
+
+  /* This is a single-line comment */
+
+form{
+    width: 40%;
+    margin: 0 auto;
+    border: solid 3px #04AA6D;
+   
+  }
+  
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+    background-color: transparent;
+  }
+  
+  /* Full-width input fields */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: transparent;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+    width: 95%;
+  }
+  
+  /* Overwrite default styles of hr */
+  hr {
+    border: 1px solid #04AA6D;
+    margin-bottom: 25px;
+  }
+  
+  /* Set a style for the submit button */
+  .registerbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .registerbtn:hover {
+    opacity: 1;
+  }
+  
+  /* Add a blue text color to links */
+  a {
+    color: dodgerblue;
+  }
+  
+  /* Set a grey background color and center the text of the "sign in" section */
+  .signin {
+    background-color: transparent;
+    text-align: center;
+  }
+footer h3 {
+    margin: 0 auto;
+    color: #0f1110;
+    text-align: center;
+
+  }
+  footer a{
+    text-decoration: none;
+    color:blue
+  }
